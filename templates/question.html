@@ -1,0 +1,515 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class = "content"> 
+</br>
+</br>
+</br>
+	    <h2><center> Create Your Profile </center></h2>
+
+	    <h3><center>This determines moral value score for translation (10 mins).</center></h3>
+
+</div>
+
+	    <style type="text/css"> 
+	    .colored-box-content {
+		  clear: both;
+		  float: left;
+		  width: 100%;
+		  -moz-box-sizing: border-box;
+		  -webkit-box-sizing: border-box;
+		  -ms-box-sizing: border-box;
+		  box-sizing: border-box;
+		  background-color: #f4f7f8;
+		  padding-top: 30px;
+		  padding-bottom: 30px;
+		  padding-left: 30px;
+		  padding-right: 30px;
+		  top: 0;
+		}
+		.sticky2 {
+		  position: sticky;
+		  top: 0;
+		  background-color: yellow;
+		  padding: 50px;
+		  font-size: 20px;
+		  z-index: 1;
+		}
+		.slidecontainer{
+			z-index: -3;
+		}
+		</style>
+
+
+
+
+		
+
+	    <div class="sticky2"> <strong> Part 1: </strong> When you decide whether something is right or wrong, to what extent are the following considerations relevant to your thinking? Please rate each statement using this scale: </br></br>
+
+	    [0] = not at all relevant (This consideration has nothing to do with my judgments of right and wrong) </br>
+        [1] = not very relevant</br>
+        [2] = slightly relevant</br>
+        [3] = somewhat relevant</br>
+        [4] = very relevant</br>
+        [5] = extremely relevant (This is one of the most important factors when I judge right and wrong)</br></div>
+
+	
+
+
+	   <style type="text/css">.paragraph{
+		  clear: both;
+		  float: center;
+		  width: 100%;
+		  -moz-box-sizing: border-box;
+		  -webkit-box-sizing: border-box;
+		  -ms-box-sizing: border-box;
+		  box-sizing: border-box;
+		  padding-top: 20px;
+		  padding-bottom: 20px;
+		  padding-left: 50px;
+		  padding-right: 50px;
+		}
+
+		</style>
+        <div id="element-2", class="paragraph">
+
+        </br>
+        </br>
+        </br>
+        	<div class = "question">
+        		Q1: Whether or not someone suffered emotionally: <strong><span id="demo1", class = "demo"></span> </strong>
+        		<div class="slidecontainer">
+				  <input type="range" min="0" max="5" value="3" class="slider" id="myRange" oninput="myFunction(this, 'demo1', 1)" >
+				 </div>
+        	</div>
+
+        </br>
+        </br>
+        </br>
+
+        	
+        	<div class = "question">
+				Q2: Whether or not some people were treated differently than others: <strong><span id="demo2" , class = "demo"></span> </strong>
+				<div class="slidecontainer">
+				  <input type="range" min="0" max="5" value="3" class="slider" id="myRange" oninput="myFunction(this, 'demo2', 1)">
+				</div>
+			</div>
+
+
+		</br>
+        </br>
+        </br>
+
+			<div class = "question">
+			Q3: Whether or not someone's action showed love for his or her country: <strong><span id="demo3" , class = "demo"></span> </strong>			
+			<div class="slidecontainer">
+				  <input type="range" min="0" max="5" value="3" class="slider" id="myRange" oninput="myFunction(this, 'demo3', 1)">		
+			</div>			
+			</div>
+
+		 </br>
+        </br>
+        </br>
+
+			<div class = "question">
+			Q4: Whether or not someone showed a lack of respect for authority: <strong><span id="demo4" , class = "demo"></span> </strong>				
+			<div class="slidecontainer">
+				  <input type="range" min="0" max="5" value="3" class="slider" id="myRange" oninput="myFunction(this, 'demo4', 1)">		
+			</div>			
+			</div> </br>
+        </br>
+        </br>
+
+
+			<div class = "question">
+			Q5: Whether or not someone violated standards of purity and decency: <strong><span id="demo5" , class = "demo"></span> </strong>			
+			<div class="slidecontainer">
+				  <input type="range" min="0" max="5" value="3" class="slider" id="myRange" oninput="myFunction(this, 'demo5', 1)">		
+			</div>			
+			</div> </br>
+        </br>
+        </br>
+
+
+			<div class = "question">
+			Q6: Whether or not someone was good at math: <strong><span id="demo6" , class = "demo"></span> </strong>				
+			<div class="slidecontainer">
+				  <input type="range" min="0" max="5" value="3" class="slider" id="myRange" oninput="myFunction(this, 'demo6', 1)">		
+			</div>			
+			</div> </br>
+        </br>
+        </br>
+
+
+			<div class = "question">
+			Q7: Whether or not someone cared for someone weak or vulnerable: <strong><span id="demo7" , class = "demo"></span> </strong>				
+			<div class="slidecontainer">
+				  <input type="range" min="0" max="5" value="3" class="slider" id="myRange" oninput="myFunction(this, 'demo7', 1)">		
+			</div>			
+			</div> </br>
+        </br>
+        </br>
+
+
+			<div class = "question">
+			Q8: Whether or not someone acted unfairly: <strong><span id="demo8" , class = "demo"></span> </strong>				
+			<div class="slidecontainer">
+				  <input type="range" min="0" max="5" value="3" class="slider" id="myRange" oninput="myFunction(this, 'demo8', 1)">		
+			</div>			
+			</div> </br>
+        </br>
+        </br>
+
+
+			<div class = "question">
+			Q9: Whether or not someone did something to betray his or her group: <strong><span id="demo9" , class = "demo"></span> </strong>			
+			<div class="slidecontainer">
+				  <input type="range" min="0" max="5" value="3" class="slider" id="myRange" oninput="myFunction(this, 'demo9', 1)">		
+			</div>			
+			</div> </br>
+        </br>
+        </br>
+
+
+			<div class = "question">
+			Q10: Whether or not someone conformed to the traditions of society: <strong><span id="demo10" , class = "demo"></span> </strong>			
+			<div class="slidecontainer">
+				  <input type="range" min="0" max="5" value="3" class="slider" id="myRange" oninput="myFunction(this, 'demo10', 1)">		
+			</div>			
+			</div> </br>
+        </br>
+        </br>
+
+
+			<div class = "question">
+			Q11: Whether or not someone did something disgusting: <strong><span id="demo11" , class = "demo"></span> </strong>				
+			<div class="slidecontainer">
+				  <input type="range" min="0" max="5" value="3" class="slider" id="myRange" oninput="myFunction(this, 'demo11', 1)">		
+			</div>			
+			</div> </br>
+        </br>
+        </br>
+
+
+			<div class = "question">
+			Q12: Whether or not someone was cruel: <strong><span id="demo12" , class = "demo"></span> </strong>				
+			<div class="slidecontainer">
+				  <input type="range" min="0" max="5" value="3" class="slider" id="myRange" oninput="myFunction(this, 'demo12', 1)">		
+			</div>			
+			</div> </br>
+        </br>
+        </br>
+
+
+			<div class = "question">
+			Q13: Whether or not someone was denied his or her rights: <strong><span id="demo13" , class = "demo"></span> </strong>				
+			<div class="slidecontainer">
+				  <input type="range" min="0" max="5" value="3" class="slider" id="myRange" oninput="myFunction(this, 'demo13', 1)">		
+			</div>			
+			</div> </br>
+        </br>
+        </br>
+
+
+			<div class = "question">
+			Q14: Whether or not someone showed a lack of loyalty: <strong><span id="demo14" , class = "demo"></span> </strong>				
+			<div class="slidecontainer">
+				  <input type="range" min="0" max="5" value="3" class="slider" id="myRange" oninput="myFunction(this, 'demo14', 1)">		
+			</div>			
+			</div> </br>
+        </br>
+        </br>
+
+
+			<div class = "question">
+			Q15: Whether or not an action caused chaos or disorder: <strong><span id="demo15" , class = "demo"></span> </strong>				
+			<div class="slidecontainer">
+				  <input type="range" min="0" max="5" value="3" class="slider" id="myRange" oninput="myFunction(this, 'demo15', 1)">		
+			</div>			
+			</div> </br>
+        </br>
+        </br>
+
+
+			<div class = "question">
+			Q16: Whether or not someone acted in a way that God would approve of: <strong><span id="demo16" , class = "demo"></span> </strong>			
+			<div class="slidecontainer">
+				  <input type="range" min="0" max="5" value="3" class="slider" id="myRange" oninput="myFunction(this, 'demo16', 1)">		
+			</div>			
+			</div> </br>
+        </br>
+        </br>
+
+			
+		</div>
+
+
+	    <div class="sticky2"> <strong>Part 2:</strong>Please read the following sentences and indicate your agreement or disagreement: </br></br>
+
+	    [0] = Strongly disagree </br>
+        [1] = Moderately disagree</br>
+        [2] = Slightly disagree</br>
+        [3] = Slightly agree</br>
+        [4] = Moderately agree</br>
+        [5] = Strongly agree</br></div>
+
+
+
+		</style>
+        <div id="element-4", class="paragraph">
+			</br></br></br><div class = "question">
+			Q17: Compassion for those who are suffering is the most crucial virtue.: <strong><span id="demo17" , class = "demo"></span> </strong>			
+			<div class="slidecontainer">
+			<input type="range" min="0" max="5" value="3" class="slider" id="myRange" oninput="myFunction(this, 'demo17', 2)">	
+			</div>				
+			</div>
+
+
+			</br></br></br><div class = "question">
+			Q18: When the government makes laws, the number one principle should be ensuring that everyone is treated fairly.: <strong><span id="demo18" , class = "demo"></span> </strong>					
+			<div class="slidecontainer">
+			<input type="range" min="0" max="5" value="3" class="slider" id="myRange" oninput="myFunction(this, 'demo18', 2)">	
+			</div>				
+			</div>
+
+
+			</br></br></br><div class = "question">
+			Q19: I am proud of my country's history.: <strong><span id="demo19" , class = "demo"></span> </strong>					
+			<div class="slidecontainer">
+			<input type="range" min="0" max="5" value="3" class="slider" id="myRange" oninput="myFunction(this, 'demo19', 2)">	
+			</div>				
+			</div>
+
+
+			</br></br></br><div class = "question">
+			Q20: Respect for authority is something all children need to learn.: <strong><span id="demo20" , class = "demo"></span> </strong>			
+			<div class="slidecontainer">
+			<input type="range" min="0" max="5" value="3" class="slider" id="myRange" oninput="myFunction(this, 'demo20', 2)">	
+			</div>				
+			</div>
+
+
+			</br></br></br><div class = "question">
+			Q21: People should not do things that are disgusting, even if no one is harmed. : <strong><span id="demo21" , class = "demo"></span> </strong>		
+			<div class="slidecontainer">
+			<input type="range" min="0" max="5" value="3" class="slider" id="myRange" oninput="myFunction(this, 'demo21', 2)">	
+			</div>				
+			</div>
+
+
+			</br></br></br><div class = "question">
+			Q22: It is better to do good than to do bad.: <strong><span id="demo22" , class = "demo"></span> </strong>					
+			<div class="slidecontainer">
+			<input type="range" min="0" max="5" value="3" class="slider" id="myRange" oninput="myFunction(this, 'demo22', 2)">	
+			</div>				
+			</div>
+
+
+			</br></br></br><div class = "question">
+			Q23: One of the worst things a person could do is hurt a defenseless animal.: <strong><span id="demo23" , class = "demo"></span> </strong>		
+			<div class="slidecontainer">
+			<input type="range" min="0" max="5" value="3" class="slider" id="myRange" oninput="myFunction(this, 'demo23', 2)">	
+			</div>				
+			</div>
+
+
+			</br></br></br><div class = "question">
+			Q24: Justice is the most important requirement for a society.: <strong><span id="demo24" , class = "demo"></span> </strong>				
+			<div class="slidecontainer">
+			<input type="range" min="0" max="5" value="3" class="slider" id="myRange" oninput="myFunction(this, 'demo24', 2)">	
+			</div>				
+			</div>
+
+
+			</br></br></br><div class = "question">
+			Q25: People should be loyal to their family members, even when they have done something wrong.  : <strong><span id="demo25" , class = "demo"></span> </strong>					
+			<div class="slidecontainer">
+			<input type="range" min="0" max="5" value="3" class="slider" id="myRange" oninput="myFunction(this, 'demo25', 2)">	
+			</div>				
+			</div>
+
+
+			</br></br></br><div class = "question">
+			Q26: Men and women each have different roles to play in society.: <strong><span id="demo26" , class = "demo"></span> </strong>				
+			<div class="slidecontainer">
+			<input type="range" min="0" max="5" value="3" class="slider" id="myRange" oninput="myFunction(this, 'demo26', 2)">	
+			</div>				
+			</div>
+
+
+			</br></br></br><div class = "question">
+			Q27: I would call some acts wrong on the grounds that they are unnatural.: <strong><span id="demo27" , class = "demo"></span> </strong>			
+			<div class="slidecontainer">
+			<input type="range" min="0" max="5" value="3" class="slider" id="myRange" oninput="myFunction(this, 'demo27', 2)">	
+			</div>				
+			</div>
+
+
+			</br></br></br><div class = "question">
+			Q28: It can never be right to kill a human being.: <strong><span id="demo28" , class = "demo"></span> </strong>					
+			<div class="slidecontainer">
+			<input type="range" min="0" max="5" value="3" class="slider" id="myRange" oninput="myFunction(this, 'demo28', 2)">	
+			</div>				
+			</div>
+
+
+			</br></br></br><div class = "question">
+			Q29: I think it's morally wrong that rich children inherit a lot of money while poor children inherit nothing.: <strong><span id="demo29" , class = "demo"></span> </strong>					
+			<div class="slidecontainer">
+			<input type="range" min="0" max="5" value="3" class="slider" id="myRange" oninput="myFunction(this, 'demo29', 2)">	
+			</div>				
+			</div>
+
+
+			</br></br></br><div class = "question">
+			Q30: It is more important to be a team player than to express oneself.: <strong><span id="demo30" , class = "demo"></span> </strong>			
+			<div class="slidecontainer">
+			<input type="range" min="0" max="5" value="3" class="slider" id="myRange" oninput="myFunction(this, 'demo30', 2)">	
+			</div>				
+			</div>
+
+
+			</br></br></br><div class = "question">
+			Q31: If I were a soldier and disagreed with my commanding officer's orders, I would obey anyway because that is my duty.: <strong><span id="demo31" , class = "demo"></span> </strong>					
+			<div class="slidecontainer">
+			<input type="range" min="0" max="5" value="3" class="slider" id="myRange" oninput="myFunction(this, 'demo31', 2)">	
+			</div>				
+			</div>
+
+
+			</br></br></br><div class = "question">
+			Q32: Chastity is an important and valuable virtue.: <strong><span id="demo32" , class = "demo"></span> </strong>					
+			<div class="slidecontainer">
+			<input type="range" min="0" max="5" value="3" class="slider" id="myRange" oninput="myFunction(this, 'demo32', 2)">	
+			</div>				
+			</div>
+        
+		</div>
+
+
+		<div id="element-5", class="paragraph">
+			 <h2><center>Results:</center></h2>
+			 <strong><span id="result"  class = "demo"></span></strong>
+			 	<!-- add a picture of where on the scale you are and save as profiles-->
+		</div>
+
+		<script>
+				var decoder = {
+				"0": "not at all relevant",
+				"1": "not very relevant",
+				"2": "slightly relevant",
+				"3": "somewhat relevant",
+				"4": "very relevant",
+				"5": "extremely relevant",
+				"6": "unanswered"
+				}
+
+				var decoder2 = {
+				"0": "strongly disagree",
+				"1": "moderately disagree",
+				"2": "slightly disagree",
+				"3": "slightly agree",
+				"4": "moderately agree",
+				"5": "strongly agree"
+				}
+				var questions = document.getElementsByClassName("question");
+				
+				for(let item of questions) {
+					var demo = item.getElementsByClassName("demo")[0];
+					demo.innerHTML = decoder[6];
+				}
+
+				function myFunction(end, idname, val) {
+					var demo = document.getElementById(idname);
+					if(val == 1){
+						demo.innerHTML = decoder[end.value];
+					}
+					else{
+						demo.innerHTML = decoder2[end.value];
+					}
+					var demolist = [];
+					for(let item of questions) {
+						var demo = item.getElementsByClassName("demo")[0];
+						var key = Object.keys(decoder).find(key => decoder[key] == demo.innerHTML);
+						if(typeof(key) == "undefined"){
+							var key = Object.keys(decoder).find(key => decoder2[key] == demo.innerHTML);
+						}
+						demolist.push(key)
+					}
+					//gather all values, if any are 6 please solve (those questions)
+					//else return scores
+					var result = document.getElementById("result");
+				    var unfinished = [];
+				    var i;
+				    var scores = [0, 0, 0, 0, 0]
+				    for(i = 0; i < demolist.length; i++){
+				    	if (demolist[i] == 6){
+				            unfinished.push(parseInt(i)+1);
+				    	}
+				    	else{
+				    		switch(i){
+					    		case 1:
+					    		case 7:
+					    		case 12:
+					    		case 17:
+					    		case 23:
+					    		case 28:
+					    			scores[0] = scores[0] + parseInt(demolist[i]);
+					    			break;
+					    		case 2:
+					    		case 8:
+					    		case 13:
+					    		case 18:
+					    		case 24:
+					    		case 29:
+					    			scores[1] = scores[1] + parseInt(demolist[i]);
+					    			break;
+					    		case 3:
+					    		case 9:
+					    		case 14:
+					    		case 19:
+					    		case 25:
+					    		case 30:
+					    			scores[2] = scores[2] + parseInt(demolist[i]);
+					    			break;
+					    		case 4:
+					    		case 10:
+					    		case 15:
+					    		case 20:
+					    		case 26:
+					    		case 31:
+					    			scores[3] = scores[3] + parseInt(demolist[i]);
+					    			break;
+					    		case 5:
+					    		case 11:
+					    		case 16:
+					    		case 21:
+					    		case 27:
+					    		case 32:
+					    			scores[4] = scores[4] + parseInt(demolist[i]);
+					    			break;
+				    		}
+
+				    	}
+				    } 
+					if(unfinished.length > 0){
+						result.innerHTML = "Please finish questions " + unfinished.join(", ") 
+					}
+					else{
+						result.innerHTML = 
+						"Harm " + String(scores[0]/5) + "\n" + 
+						"Fairness " + String(scores[1]/5) + "\n" + 
+						"Loyalty " + String(scores[2]/5) + "\n" + 
+						"Authority " + String(scores[3]/5) + "\n" + 
+						"Purity " + String(scores[4]/5) + "\n" 
+					}
+					
+				}
+
+
+				
+				
+			</script>
+	
+	{% endblock %}
