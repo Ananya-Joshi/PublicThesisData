@@ -3,3 +3,8 @@ Model Weights to use with Open AI GPT2 from my thesis (still updating): https://
 
 
 Conservative and liberal text sources as training data. 
+
+
+# HerokuApp
+
+Work in progress. https://newmorals.herokuapp.com/ Flask application. 
